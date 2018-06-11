@@ -9,7 +9,7 @@ def prime?(integer)
   
   
   odd_array = array.map do |number|
-    array << number if number.odd?
+    return number if number.odd?
   end
   
   array.each do |number|
