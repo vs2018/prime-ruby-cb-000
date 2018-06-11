@@ -12,7 +12,7 @@ def prime?(integer)
     number.odd?
   end
   
-  array.each do |number|
+  odd_array.each do |number|
       if integer % number == 0
         return false
       end
