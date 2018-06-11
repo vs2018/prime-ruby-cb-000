@@ -7,9 +7,10 @@ def prime?(integer)
   
   array = (3..new_highest).to_a
   
+  odd_array = []
   
-  odd_array = array.map do |number|
-    return number if number.odd?
+  array.each do |number|
+    odd_array << number if number.odd?
   end
   
   odd_array.each do |number|
