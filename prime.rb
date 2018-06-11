@@ -11,7 +11,7 @@ def prime?(integer)
     array << number if number.odd?
   end
   
-  odd_array.each do |number|
+  array.each do |number|
       if integer % number == 0
         return false
       end
